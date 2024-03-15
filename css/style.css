@@ -1,0 +1,88 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @keyframes fireAnimation {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0;
+     }
+    }
+  /* Body styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container styles */
+  .container-fluid {
+    padding: 20px;
+    background-color: #2c3e50; /* Dark blue background */
+  }
+  
+  .container {
+    max-width: 960px; /* Adjust width as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styles */
+  .logo img {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Rounded corners for the logo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Title styles */
+  h1 {
+    font-size: 40px;
+    color: #ffffff; /* White text color */
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for better visibility */
+  background-image: url(ef5e4b4d024c66b42311e337ae8ab4cc.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  }
+  
+  
+  /* Flag styles */
+  .flag img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Rounded corners for the flag */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Date and Time container */
+  .date-time-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px; /* Add space between flag and date/time */
+  }
+  
+  /* Date and Time styles */
+  #currentDate,
+  #currentTime {
+    font-size: 18px;
+    color: #ffffff; /* White text color */
+    margin-top: 5px; /* Add space between date and time */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo img {
+      margin-bottom: 1rem; /* Adjust margin for logo */
+    }
+  }
+  
