@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 }
 .container{
     background-color: aliceblue;
-    width: 500px;
+    width: 75%;
     padding: 2rem;
     margin: 50px auto;
     border-top: 5px solid blue;

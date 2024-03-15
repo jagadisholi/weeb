@@ -96,12 +96,6 @@
                 </div>
 
                 <div class="input-name">
-                    <span>*</span>
-                    <label for="Premanent Add"></label>
-
-                </div>
-
-                <div class="input-name">
                     <input type="radio" class="radio-button" name="r">
                     <label>Male</label>
 
@@ -111,10 +105,15 @@
 
                 <!-- <div class="check_box"></div> -->
                 <div class="input-name">
-                    <input type="checkbox" class="check_button">
-                    <label>Above requirement are all true</label>
+                    <!-- <input type="checkbox" class="check_button"> -->
+                    <h2>temporary Address</h2>
+                <label for="Province">Temporary Address:</label>
+                    <input type="text" id="temporaryAddress" name="temporaryAddress">
+                <!-- <input type="checkbox" class="check_button"> -->
+                    <label for="permanentAddress">Permanent Address:</label>
+                    <input type="text" id="permanentAddress" name="permanentAddress" placeholder="Enter your permanent address">
+                    <br><button onclick="copyTemporaryToPermanent()">Same as Temporary Address</button>
                 </div>
-
                 <div class="input-name">
                     <input type="submit" class="check_button" value="submit">
                 </div>
@@ -122,5 +121,6 @@
         </div>
 
     </div>
+    <script src="form.js"></script>
 </body>
 </html>
