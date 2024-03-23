@@ -42,11 +42,15 @@
     font-size: 40px;
     color: #ffffff; /* White text color */
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for better visibility */
-  background-image: url(ef5e4b4d024c66b42311e337ae8ab4cc.gif);
+  background-image: url(https://www.google.com/search?sca_esv=0ca6e4b78dce1108&rlz=1C1KNTJ_enNP1046NP1046&sxsrf=ACQVn08bmD8DNhJ_CeqsHgG5dFKTnXLQtg:1711017639241&q=background-image:+url(ef5e4b4d024c66b42311e337ae8ab4cc.gif&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjujN20lYWFAxWeSGwGHZAABpgQ0pQJegQIChAB&biw=1280&bih=551&dpr=1.5#imgrc=CBYvoNJGA3f3hMef5e4b4d024c66b42311e337ae8ab4cc.gif);
   background-repeat: no-repeat;
   background-position: center;
   color: transparent;
   background-clip: text;
+  }
+  .object{
+    padding: 0;
+    margin: 0;
   }
   
   
