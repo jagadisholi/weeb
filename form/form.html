@@ -58,9 +58,10 @@
 
                     <select name="Course" id="Course" required>
                         <option value="">select an option</option>
-                      <option value="Computer">Basic</option>
-                      <option value="Language">Diploma/Graphics</option>
-                    <option value="Enquiry">Computer Hardware and Repairing</option>
+                      <option value="Computer">Computer Course</option>
+                      <option value="Language">Language</option>
+                    <option value="CTEVT">CTEVT</option>
+                    <option value="Enquiry">Enquiry</option>
                     </select>
                 </div>
                 <div class="Computer">
@@ -145,6 +146,15 @@
                     <input type="text" id="permanentAddress" name="permanentAddress" placeholder="Enter your permanent address">
                     <br><button onclick="copyTemporaryToPermanent()">Same as Temporary Address</button>
                 </div>
+                <div>
+                    <p><strong>Note:</strong>Fees to be paid on the given dates as discussed in institute during admission of candidate institute will not be held responsible for this placement of vehicle of any candidate.</p>
+                    <div class="declaration">
+                        <h3>DECLARATION</h3>
+                        <label for="agree-checkbox">
+                            <input type="checkbox" id="agree-checkbox" name="agree-checkbox" required>
+                        </label>
+                        <h5>I hereby declare that all the particulars stated in this application are true to the best of my knowledge and belief.</h5>
+                    </div>
                 <div class="input-name">
                     <input type="submit" class="check_button" value="submit">
                 </div>
@@ -153,5 +163,7 @@
 
     </div>
     <script src="form.js"></script>
+    
+
 </body>
 </html>
