@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/img.css"> -->
 </head>
 <body>
+    
+<?php include 'header/header.php'; ?>
     <a href="file/form.html">Admission form</a>
     <a href="login/login.html">login</a>
     <div class="container-fluid">
@@ -22,8 +24,7 @@
             </div> -->
             <?php
 // URL of the image
-$image_url = "../assets/img/logo.jpg";
-
+$image_url = "assets\img\logo.jpg";
 // Directory to save the uploaded image
 $target_dir = "uploads/";
 

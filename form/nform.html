@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="../css/form_css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2><strong>BRIGHT FUTURE PRABHIDIK SIKSHALAYA
+            <br>Ghorahi-15, Bharatpur, Dang    
+        </strong></h2>
+        <h3>Email:<a href="mailto:bfps.dang@gmail.com">bfps.dang@gmail.com</a>
+        </h3>
+        <h3><a href="tel:+9779810247132">
+            <i class="fas fa-phone"></i> Call us: +977 9810247132
+        </a></h3>
+
+        <div class="form-container">
+            <form>
+                <div class="input-name">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="First name"  class="name">
+                    <span>
+                        <input type="text" placeholder="Middle name" class="name">
+                    </span>
+                    <span>
+                        <input type="text" placeholder="Last name" class="name">
+                    </span>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa-solid fa-landmark"></i>
+                    <input type="text" placeholder="Nationality" class="name">
+                    <span>
+                        <i class="fas fa-phone"></i>
+                        <input type="number" placeholder="Mobile number" class="name">
+                    </span>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <input type="text" placeholder="DOB" class="name">
+                </div>
+
+                <div class="input-name">
+                    <span>*</span>
+                    <i class="fa-solid fa-envelope"></i>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <h2><strong>COURSE/PROGRAM</strong></h2>
+                <h3>Computer Course:</h3>
+                <div class="input-name">
+                    <label for="course">Choose Your Choice:</label>
+
+                    <select name="Course" id="Course" required>
+                        <option value="">select an option</option>
+                        <option value="Computer">Computer Course</option>
+                        <option value="Language">Language</option>
+                        <option value="CTEVT">CTEVT</option>
+                        <option value="Enquiry">Enquiry</option>
+                    </select>
+                </div>
+                <div class="Computer">
+                    label
+                </div>
+
+                <div class="input-name">
+                    <span>*</span>
+                    <i class="fas fa-user"></i>
+                    <label for="F-name">Father Name:</label>
+                    <input type="text" id="F-name" name="F-name" placeholder="Father Name" required>
+                    <br><span>*</span>
+                    <label for="Occpuation">Occupation:</label>
+                    <input type="text" name="Occupation" id="Occupation" placeholder="Occupation" required>
+                    <br><span>*</span>
+                    <i class="fas fa-phone"></i>
+                    <label for="Mobile no">Mobile no:</label>
+                    <input type="number" name="Mobile no " id="Mobile no" placeholder="Mobile no" required>
+                </div>
+
+                <div class="input-name">
+                    <span>*</span>
+                    <i class="fas fa-user"></i>
+                    <label for="M-name">Mother Name:</label>
+                    <input type="text" id="M-name" name="M-name" placeholder="Mother Name" required>
+                    <br><span>*</span>
+                    <label for="Occpuation">Occupation:</label>
+                    <input type="text" name="Occupation" id="Occupation" placeholder="Occupation" required>
+                    <br><span>*</span>
+                    <i class="fas fa-phone"></i>
+                    <label for="Mobile no">Mobile no:</label>
+                    <input type="number" name="Mobile no " id="Mobile no" placeholder="Mobile no" required>
+                </div>
+
+                <div class="input-name">
+                    <input type="radio" class="radio-button" name="r">
+                    <label>Male</label>
+
+                    <input type="radio" class="radio-button" name="r">
+                    <label>Female</label>
+                </div>
+                <div class="add">
+                    <label for="permanentAddress">Permanent Address:</label>
+                    <input type="text" id="permanentAddress" name="permanentAddress" placeholder="Enter your permanent address">
+                    <br><button onclick="copyTemporaryToPermanent()">Same as Temporary Address</button>
+                    <div class="mb-3">
+                        <label for="province" class="form-label">Province:</label>
+                        <select class="form-select" id="province">
+                            <option selected>Select Province</option>
+                            <option value="1">Koshi Province</option>
+                            <option value="2">Madesh Province</option>
+                            <option value="3">Bagmati Province</option>
+                            <option value="4">Gandaki Province</option>
+                            <option value="5">Lumbini Province</option>
+                            <option value="6">Karnali Province</option>
+                            <option value="7">Sudurpashchim Province</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="class" class="form-label">Class Time</label>
+                        <select class="form-select" id="class">
+                            <option selected>Choose class Time </option>
+                            <option value="1">5:30 am : 7:00 am</option>
+                            <option value="2">7:00 am : 8:30 am</option>
+                            <option value="3">8:30 am : 10:00 am</option>
+                            <option value="4">10:00 am : 11:30 am</option>
+                            <option value="5">11:30 am : 1:00 pm</option>
+                            <option value="6">1:00 pm : 2:30 pm</option>
+                            <option value="7">2:30 pm : 4:00 pm</option>
+                            <option value="8">4:00 pm : 5:30 pm</option>
+                            <option value="9">5:30 pm : 7:00 pm</option>
+                        </select>
+                    </div>
+                    <!-- <div class="check_box"></div> -->
+                    <div class="input-name">
+                        <!-- <input type="checkbox" class="check_button"> -->
+                        <h2>temporary Address</h2>
+                        <label for="Province">Temporary Address:</label>
+                        <input type="text" id="temporaryAddress" name="temporaryAddress">
+                        <!-- <input type="checkbox" class="check_button"> -->
+                        <label for="permanentAddress">Permanent Address:</label>
+                        <input type="text" id="permanentAddress" name="permanentAddress" placeholder="Enter your permanent address">
+                        <br><button onclick="copyTemporaryToPermanent()">Same as Temporary Address</button>
+                    </div>
+                    <div>
+                        <p><strong>Note:</strong>Fees to be paid on the given dates as discussed in institute during admission of candidate institute will not be held responsible for this placement of vehicle of any candidate.</p>
+                        <div class="declaration">
+                            <h3>DECLARATION</h3>
+                            <label for="agree-checkbox">
+                                <input type="checkbox" id="agree-checkbox" name="agree-checkbox" required>
+                            </label>
+                            <h5>I hereby declare that all the particulars stated in this application are true to the best of my knowledge and belief.</h5>
+                        </div>
+                        <div class="input-name">
+                            <input type="submit" class="check_button" value="submit">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
